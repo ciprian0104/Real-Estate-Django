@@ -1,4 +1,4 @@
-!!! CS Real Estate 
+<h1> CS Real Estate </h1>
 
 <h2> A real estate property management system for selling properties. </h2>
 
