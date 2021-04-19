@@ -12,3 +12,5 @@ Built a property uploading page that allows users to add a new property.
 Built a search page that allows users to search for properties by address, city, state, zipcode or other features.
 Built a Contact system that allows users to send message to a property's owner.
 Implemented User Authentication and Email Notification.
+
+<img src="real-estate-1.gif" />
