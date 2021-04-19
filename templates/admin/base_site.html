@@ -1,19 +1,16 @@
-{% extends 'admin/base.html' %}
+{% extends 'admin/base.html' %} {% load static %} {% block branding %}
 
-{% load static %}
+<h1 id="head">
+  <img
+    src="{% static 'img/second-logo.png' %}"
+    alt="CS Real Estate"
+    class="logo"
+  />
+  Admin Area
+</h1>
 
-{% block branding %}
+{% endblock %} {% block extrastyle %}
 
-    <h1 id="head">
-        <img src="{% static 'img/logo.png' %}" alt="BT Real Estate" height="50" width="80">
-        Admin Area
-    </h1>
-
-{% endblock %}
-
-
-{% block extrastyle %}
-
-    <link rel="stylesheet" href="{% static 'css/admin.css' %}">
+<link rel="stylesheet" href="{% static 'css/admin.css' %}" />
 
 {% endblock %}
